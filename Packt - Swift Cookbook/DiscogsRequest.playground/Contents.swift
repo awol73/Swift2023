@@ -115,4 +115,10 @@ func fetchRepos(forArtistID artist_id: String) {
 }
 
 //fetchRepos(forUsername: "PacktPublishing")
-fetchRepos(forArtistID: "162564")
+//fetchRepos(forArtistID: "162564")
+
+// Corazon de Leon: master: "1827681"
+// Masters: Astor Piazzolla: 291591, 438644,
+// Garbage: 26107 2164747
+//
+fetchArtistReleases(config: config, session: session, master: "2164747")
